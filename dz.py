@@ -52,7 +52,7 @@ student_score — количество баллов, которое зарабо
 print(check_winners([1, 2, 3, 40, 50, 25, 24, 23], 25))"""
 
 #3
-"""def print_pack_report(count):
+def print_pack_report(count):
     if count > 1 and count == int(count):
         if count % 5 == 0 and count % 3 == 0:
             return f'{count} - расфасовываем по 3 или по 5'
@@ -72,8 +72,8 @@ print(check_winners([1, 2, 3, 40, 50, 25, 24, 23], 25))"""
 count - число пирожных
 
 '''
-k = int(input())
-print(print_pack_report(k)) """
+k = int(input('Введите кол-во пирожных:'))
+print(print_pack_report(k))
 
 #4
 """import random
