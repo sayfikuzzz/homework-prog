@@ -31,7 +31,7 @@ h - расшифрованная строка
 по итогу выводится строка h
 '''
 print(encryption())
-print(decryption()) """
+print(decryption())"""
 
 #2
 """def check_winners(scores, student_score):
@@ -48,11 +48,11 @@ print(decryption()) """
 scores —список, который содержит количество баллов каждого участника олимпиады
 student_score — количество баллов, которое заработал Стас.
 '''
-
-print(check_winners([1, 2, 3, 40, 50, 25, 24, 23], 25))"""
+ball = int(input('Введите своё количество баллов:'))
+print(check_winners([1, 2, 3, 40, 50, 25, 24, 23], ball))"""
 
 #3
-def print_pack_report(count):
+"""def print_pack_report(count):
     if count > 1 and count == int(count):
         if count % 5 == 0 and count % 3 == 0:
             return f'{count} - расфасовываем по 3 или по 5'
@@ -73,7 +73,7 @@ count - число пирожных
 
 '''
 k = int(input('Введите кол-во пирожных:'))
-print(print_pack_report(k))
+print(print_pack_report(k))"""
 
 #4
 """import random
